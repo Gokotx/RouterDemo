@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E848EE6A1F31E26400CDBFBE /* ErrorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E848EE691F31E26400CDBFBE /* ErrorViewController.m */; };
+		E848EE6D1F332B5900CDBFBE /* MyAssertionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E848EE6C1F332B5900CDBFBE /* MyAssertionHandler.m */; };
 		E86B912D1F28A4A10074790F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E86B912C1F28A4A10074790F /* main.m */; };
 		E86B91301F28A4A10074790F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E86B912F1F28A4A10074790F /* AppDelegate.m */; };
 		E86B91331F28A4A10074790F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E86B91321F28A4A10074790F /* ViewController.m */; };
@@ -15,6 +17,17 @@
 		E86B913B1F28A4A10074790F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E86B91391F28A4A10074790F /* LaunchScreen.storyboard */; };
 		E86B91461F28A4A10074790F /* RouterTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E86B91451F28A4A10074790F /* RouterTestTests.m */; };
 		E86B91511F28A4A10074790F /* RouterTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E86B91501F28A4A10074790F /* RouterTestUITests.m */; };
+		E86B91691F28A5910074790F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E86B91681F28A5910074790F /* FirstViewController.m */; };
+		E86B916C1F28A59D0074790F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E86B916B1F28A59D0074790F /* SecondViewController.m */; };
+		E86B916F1F28A77B0074790F /* Workshop.m in Sources */ = {isa = PBXBuildFile; fileRef = E86B916E1F28A77B0074790F /* Workshop.m */; };
+		E86B91721F28A9B60074790F /* RootNaigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E86B91711F28A9B60074790F /* RootNaigationController.m */; };
+		E86B91741F2997E80074790F /* abc.png in Resources */ = {isa = PBXBuildFile; fileRef = E86B91731F2997E80074790F /* abc.png */; };
+		E86B91771F29B8D40074790F /* ImageUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E86B91761F29B8D40074790F /* ImageUtils.m */; };
+		E86B917B1F29D4910074790F /* NSObject+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = E86B917A1F29D4910074790F /* NSObject+Utils.m */; };
+		E86B917E1F29F4E90074790F /* Workshop+ImageUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E86B917D1F29F4E90074790F /* Workshop+ImageUtils.m */; };
+		E86B91811F29FF580074790F /* Workshop+SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E86B91801F29FF580074790F /* Workshop+SecondViewController.m */; };
+		E86B91841F2A1A940074790F /* ColorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E86B91831F2A1A940074790F /* ColorUtils.m */; };
+		E86B91871F2A1C840074790F /* Workshop+ColorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E86B91861F2A1C840074790F /* Workshop+ColorUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +48,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E848EE681F31E26400CDBFBE /* ErrorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErrorViewController.h; sourceTree = "<group>"; };
+		E848EE691F31E26400CDBFBE /* ErrorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ErrorViewController.m; sourceTree = "<group>"; };
+		E848EE6B1F332B5900CDBFBE /* MyAssertionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAssertionHandler.h; sourceTree = "<group>"; };
+		E848EE6C1F332B5900CDBFBE /* MyAssertionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAssertionHandler.m; sourceTree = "<group>"; };
 		E86B91281F28A4A10074790F /* RouterTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RouterTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E86B912C1F28A4A10074790F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E86B912E1F28A4A10074790F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +68,30 @@
 		E86B914C1F28A4A10074790F /* RouterTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RouterTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E86B91501F28A4A10074790F /* RouterTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RouterTestUITests.m; sourceTree = "<group>"; };
 		E86B91521F28A4A10074790F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E86B915E1F28A4BB0074790F /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		E86B91671F28A5910074790F /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		E86B91681F28A5910074790F /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		E86B916A1F28A59D0074790F /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		E86B916B1F28A59D0074790F /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		E86B916D1F28A77B0074790F /* Workshop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = Workshop.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		E86B916E1F28A77B0074790F /* Workshop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = Workshop.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		E86B91701F28A9B60074790F /* RootNaigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootNaigationController.h; sourceTree = "<group>"; };
+		E86B91711F28A9B60074790F /* RootNaigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootNaigationController.m; sourceTree = "<group>"; };
+		E86B91731F2997E80074790F /* abc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abc.png; sourceTree = "<group>"; };
+		E86B91751F29B8D40074790F /* ImageUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageUtils.h; sourceTree = "<group>"; };
+		E86B91761F29B8D40074790F /* ImageUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageUtils.m; sourceTree = "<group>"; };
+		E86B91781F29B9B90074790F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		E86B91791F29D4910074790F /* NSObject+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Utils.h"; sourceTree = "<group>"; };
+		E86B917A1F29D4910074790F /* NSObject+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "NSObject+Utils.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		E86B917C1F29F4E90074790F /* Workshop+ImageUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "Workshop+ImageUtils.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		E86B917D1F29F4E90074790F /* Workshop+ImageUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "Workshop+ImageUtils.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		E86B917F1F29FF580074790F /* Workshop+SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "Workshop+SecondViewController.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		E86B91801F29FF580074790F /* Workshop+SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "Workshop+SecondViewController.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		E86B91821F2A1A940074790F /* ColorUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorUtils.h; sourceTree = "<group>"; };
+		E86B91831F2A1A940074790F /* ColorUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorUtils.m; sourceTree = "<group>"; };
+		E86B91851F2A1C840074790F /* Workshop+ColorUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "Workshop+ColorUtils.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		E86B91861F2A1C840074790F /* Workshop+ColorUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "Workshop+ColorUtils.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		E86B91881F2B12B10074790F /* DefineTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefineTools.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +119,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E848EE671F31E23300CDBFBE /* ErrorController */ = {
+			isa = PBXGroup;
+			children = (
+				E848EE681F31E26400CDBFBE /* ErrorViewController.h */,
+				E848EE691F31E26400CDBFBE /* ErrorViewController.m */,
+			);
+			name = ErrorController;
+			sourceTree = "<group>";
+		};
 		E86B911F1F28A4A10074790F = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +151,8 @@
 		E86B912A1F28A4A10074790F /* RouterTest */ = {
 			isa = PBXGroup;
 			children = (
+				E86B91601F28A5580074790F /* Controller */,
+				E86B915F1F28A4C10074790F /* Utils */,
 				E86B912E1F28A4A10074790F /* AppDelegate.h */,
 				E86B912F1F28A4A10074790F /* AppDelegate.m */,
 				E86B91311F28A4A10074790F /* ViewController.h */,
@@ -117,6 +169,10 @@
 		E86B912B1F28A4A10074790F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E86B915E1F28A4BB0074790F /* Singleton.h */,
+				E86B91881F2B12B10074790F /* DefineTools.h */,
+				E86B91781F29B9B90074790F /* PrefixHeader.pch */,
+				E86B91731F2997E80074790F /* abc.png */,
 				E86B912C1F28A4A10074790F /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +194,83 @@
 				E86B91521F28A4A10074790F /* Info.plist */,
 			);
 			path = RouterTestUITests;
+			sourceTree = "<group>";
+		};
+		E86B915F1F28A4C10074790F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E86B918D1F2B482A0074790F /* NormalUtils */,
+				E86B918C1F2B48130074790F /* Workshop */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		E86B91601F28A5580074790F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E86B918B1F2B45B60074790F /* RootNavigation */,
+				E86B91891F2B45900074790F /* FirstViewController */,
+				E86B918A1F2B45A80074790F /* SecondViewController */,
+				E848EE671F31E23300CDBFBE /* ErrorController */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E86B91891F2B45900074790F /* FirstViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E86B91671F28A5910074790F /* FirstViewController.h */,
+				E86B91681F28A5910074790F /* FirstViewController.m */,
+				E86B917F1F29FF580074790F /* Workshop+SecondViewController.h */,
+				E86B91801F29FF580074790F /* Workshop+SecondViewController.m */,
+			);
+			name = FirstViewController;
+			sourceTree = "<group>";
+		};
+		E86B918A1F2B45A80074790F /* SecondViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E86B916A1F28A59D0074790F /* SecondViewController.h */,
+				E86B916B1F28A59D0074790F /* SecondViewController.m */,
+			);
+			name = SecondViewController;
+			sourceTree = "<group>";
+		};
+		E86B918B1F2B45B60074790F /* RootNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				E86B91701F28A9B60074790F /* RootNaigationController.h */,
+				E86B91711F28A9B60074790F /* RootNaigationController.m */,
+			);
+			name = RootNavigation;
+			sourceTree = "<group>";
+		};
+		E86B918C1F2B48130074790F /* Workshop */ = {
+			isa = PBXGroup;
+			children = (
+				E86B916D1F28A77B0074790F /* Workshop.h */,
+				E86B916E1F28A77B0074790F /* Workshop.m */,
+			);
+			name = Workshop;
+			sourceTree = "<group>";
+		};
+		E86B918D1F2B482A0074790F /* NormalUtils */ = {
+			isa = PBXGroup;
+			children = (
+				E86B91751F29B8D40074790F /* ImageUtils.h */,
+				E86B91761F29B8D40074790F /* ImageUtils.m */,
+				E86B917C1F29F4E90074790F /* Workshop+ImageUtils.h */,
+				E86B917D1F29F4E90074790F /* Workshop+ImageUtils.m */,
+				E86B91821F2A1A940074790F /* ColorUtils.h */,
+				E86B91831F2A1A940074790F /* ColorUtils.m */,
+				E86B91851F2A1C840074790F /* Workshop+ColorUtils.h */,
+				E86B91861F2A1C840074790F /* Workshop+ColorUtils.m */,
+				E86B91791F29D4910074790F /* NSObject+Utils.h */,
+				E86B917A1F29D4910074790F /* NSObject+Utils.m */,
+				E848EE6B1F332B5900CDBFBE /* MyAssertionHandler.h */,
+				E848EE6C1F332B5900CDBFBE /* MyAssertionHandler.m */,
+			);
+			name = NormalUtils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +382,7 @@
 				E86B913B1F28A4A10074790F /* LaunchScreen.storyboard in Resources */,
 				E86B91381F28A4A10074790F /* Assets.xcassets in Resources */,
 				E86B91361F28A4A10074790F /* Main.storyboard in Resources */,
+				E86B91741F2997E80074790F /* abc.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +407,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E86B916F1F28A77B0074790F /* Workshop.m in Sources */,
+				E86B916C1F28A59D0074790F /* SecondViewController.m in Sources */,
+				E86B917B1F29D4910074790F /* NSObject+Utils.m in Sources */,
+				E848EE6A1F31E26400CDBFBE /* ErrorViewController.m in Sources */,
+				E86B91841F2A1A940074790F /* ColorUtils.m in Sources */,
+				E848EE6D1F332B5900CDBFBE /* MyAssertionHandler.m in Sources */,
 				E86B91331F28A4A10074790F /* ViewController.m in Sources */,
+				E86B91771F29B8D40074790F /* ImageUtils.m in Sources */,
 				E86B91301F28A4A10074790F /* AppDelegate.m in Sources */,
+				E86B917E1F29F4E90074790F /* Workshop+ImageUtils.m in Sources */,
+				E86B91871F2A1C840074790F /* Workshop+ColorUtils.m in Sources */,
 				E86B912D1F28A4A10074790F /* main.m in Sources */,
+				E86B91721F28A9B60074790F /* RootNaigationController.m in Sources */,
+				E86B91691F28A5910074790F /* FirstViewController.m in Sources */,
+				E86B91811F29FF580074790F /* Workshop+SecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +572,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RouterTest/PrefixHeader.pch";
 				INFOPLIST_FILE = RouterTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cgk.RouterTest;
@@ -437,6 +584,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RouterTest/PrefixHeader.pch";
 				INFOPLIST_FILE = RouterTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cgk.RouterTest;
@@ -509,6 +657,7 @@
 				E86B91571F28A4A10074790F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E86B91581F28A4A10074790F /* Build configuration list for PBXNativeTarget "RouterTestTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +666,7 @@
 				E86B915A1F28A4A10074790F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E86B915B1F28A4A10074790F /* Build configuration list for PBXNativeTarget "RouterTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +675,7 @@
 				E86B915D1F28A4A10074790F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "FirstViewController.h"
+#import "RootNaigationController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,6 +17,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    RootNaigationController * rootNavi = [RootNaigationController shareRootNaigationController];
+    rootNavi.viewControllers = @[[FirstViewController new]];
+    self.window.rootViewController = rootNavi;
     // Override point for customization after application launch.
     return YES;
 }
